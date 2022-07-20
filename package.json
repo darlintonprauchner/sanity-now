@@ -1,0 +1,16 @@
+{
+  "name": "sanity-now",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test:sanity": "mocha tests/sanity/*"
+  },
+  "license": "ISC",
+  "dependencies": {
+    "chai": "^4.3.6",
+    "js-yaml": "^4.1.0",
+    "mocha": "^10.0.0",
+    "sinon": "^14.0.0"
+  }
+}
